@@ -4,11 +4,8 @@ def bubble_sort(data):
             if data[index] > data[index + 1]:
                 data[index], data[index + 1] = data[index + 1], data[index]
                 # swap the positions if first number is higher than the second
-            else:
-                pass  # go ahead and check the next pair
 
-    print data
-
+    print 'Sorted (ascending order) data:', data
 
 data = [14, 46, 43, 27, 57, 41, 45, 21, 70]
 bubble_sort(data)
